@@ -1,0 +1,24 @@
+#barra {
+    background-color: rgb(91, 42, 138); /* Color del fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espacio entre el texto y los bordes */
+    text-align: center; /* Alineación del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    width: 100%; /* Ancho de la barra */
+    margin: 20px 0; /* Espacio superior e inferior */
+  }
+  
+  /* Para hacerlo más responsivo */
+  @media (max-width: 768px) {
+    .barra-portafolio {
+      font-size: 18px; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .barra-portafolio {
+      font-size: 14px; /* Ajusta el tamaño de la fuente para pantallas muy pequeñas */
+    }
+  }
+  
